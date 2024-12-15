@@ -1,0 +1,549 @@
+/* Reset default margin and padding for the entire page */
+body,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the sidebar container */
+.sidebar {
+  height: 100%;
+  width: 20%;
+  position: fixed;
+  /* top: 0;
+  left: 0; */
+  background-color: #333;
+  padding-top: 20px;
+  color: white;
+  box-shadow: 1px 1px 3px black;
+  /* display: flex; */
+}
+.sidebar-profile {
+  bottom: 0;
+  margin-bottom: 9vh;
+  text-align: center;
+}
+
+/* Style the sidebar heading */
+.sidebar h2 {
+  text-align: center;
+}
+
+/* Style the sidebar links */
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  padding: 10px;
+  text-align: center;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar ul li a:hover {
+  background-color: #555;
+}
+
+/* Style the logout button */
+.logout-btn {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin: 20px auto;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.logout-btn:hover {
+  background-color: #0037ff;
+}
+/* Reset default margin and padding for the entire page */
+
+/* .nav-start{
+    align
+} */
+/* Style the navbar container */
+.navbar {
+  background-color: #333;
+  width: 80%;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  box-shadow: 2px 1px 1px 1px rgb(57, 57, 57);
+  float: right;
+  padding: 10px;
+  height: 10.5vh;
+  /* padding-right: 20px; */
+}
+
+/* Style the left side of the navbar */
+.nav-left {
+  display: flex;
+  margin-left: 20px;
+}
+
+/* Style the navigation buttons */
+.nav-button {
+  background-color: #444;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  margin-right: 10px;
+  /* margin-left: 30px; */
+  cursor: pointer;
+}
+
+.nav-button:hover {
+  background-color: #bdac2d;
+  color: black;
+}
+.nav-active {
+  background: #e0eb15;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 10px;
+  /* margin-left: 30px; */
+  cursor: pointer;
+}
+
+/* Style the right side of the navbar */
+.nav-right {
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+
+.current-date {
+  margin: 0;
+  margin-right: 10px;
+}
+/* Reset default margin and padding for the entire page */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the dashboard container */
+.dashboard-container {
+  /* background: #E8E8E8; */
+  background-image: linear-gradient(to bottom right, #cdffbf, #ffafbd);
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  float: right;
+  min-height: 90vh;
+}
+
+.dashboard-size {
+  width: 90%;
+  margin: auto;
+}
+
+/* Style the dashboard header */
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Style the search bar */
+.dashboard-search-input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 200px;
+  /* margin-left: 23%; */
+}
+
+/* Style the "Add New Employee" button */
+.dashboard-add-employee {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.dashboard-add-employee:hover {
+  background-color: #0056b3;
+}
+
+/* Style the table */
+.dashboard-table {
+  width: 100%;
+  margin: auto;
+  border-collapse: separate;
+  border-spacing: 0 1em;
+  padding: 10px;
+  background: rgb(235, 233, 233);
+  border-radius: 12px;
+}
+
+/* .dashboard-table th, */
+.dashboard-table td {
+  border: none;
+  padding: 8px;
+  text-align: left;
+}
+
+/* Style the toggle button for Actions */
+.dashboard-toggle-button {
+  appearance: none;
+  background-color: #e8e8e8;
+  border: none;
+  width: 40px;
+  height: 20px;
+  border-radius: 10px;
+  position: relative;
+  cursor: pointer;
+}
+
+.dashboard-toggle-button:checked {
+  background-color: #007bff;
+}
+
+.dashboard-toggle-button::before {
+  content: "";
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  background-color: white;
+  border-radius: 50%;
+  top: 1px;
+  left: 1px;
+  transition: transform 0.3s ease;
+}
+
+.dashboard-toggle-button:checked::before {
+  transform: translateX(20px);
+  /* margin-left: 15px; */
+}
+
+td:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+td:last-child {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+
+th{
+  padding-bottom: 0px;
+}
+.dropbtn {
+  background-color: #04aa6d;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: block;
+  position: absolute;
+  right: -5px;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* .dropdown:hover .dropdown-content {
+  display: block;
+} */
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+.icon-settle {
+  /* margin-left: 29%; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  /* justify-content: center; */
+  height: 100%;
+}
+
+.nav-hover {
+  width: 56%;
+  border-radius: 6px;
+  margin: auto;
+}
+
+.nav-hover:hover {
+  cursor: pointer;
+  background-color: #cfda2f;
+}
+
+.nav-hover:active {
+  cursor: pointer;
+  background-color: #e0eb15;
+}
+
+.admin-extend {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100vh;
+}
+td th{
+  text-align: center;
+}
+
+/* Employee dashboard css */
+
+.emp-dashboard-top {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: radial-gradient(#074188, #01102f, #010815);
+  /* min-height: 100vh; */
+}
+.emp-dashboard-body {
+  display: flex;
+  justify-content: space-around;
+  /* gap: 10px; */
+  padding-top: 20px;
+  min-height: 100vh;
+}
+
+.emp-dashboard-header {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2));
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  height: 25px;
+}
+.emp-header {
+  width: 98%;
+  margin-left: 20px;
+  margin-right: 18px;
+  padding: 10px;
+  /* background: #1c2146; */
+  background: linear-gradient(#203281, #0098f4);
+  color: rgb(214, 214, 214);
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+.emp-header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.emp-dashboard-container {
+  padding-bottom: 20px;
+  width: 100%;
+}
+.emp-dashboard-subcontainer {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 20px 0 21px;
+  align-items: center;
+  gap: 20px;
+}
+
+.emp-dashboard-card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  text-align: center;
+  color: #333;
+  height: 170px;
+}
+
+.card1 {
+  background: linear-gradient(to bottom, #ecb690, #fff);
+  border: 0px;
+  cursor: pointer;
+}
+
+.card2 {
+  background: linear-gradient(to bottom, #baaaec, #fff);
+  border: 0px;
+  cursor: pointer;
+}
+
+.card3 {
+  background: linear-gradient(to bottom,  #7ae4c8, #fff);
+  border: 0px;
+  cursor: pointer;
+}
+
+.card4 {
+  background: linear-gradient(to bottom, #edacda, #fff);
+  border: 0px;
+  cursor: pointer;
+  /* background: #113a5f; */
+}
+
+.emp-dashboard-footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+.emp-leftside {
+  width: 5%;
+  height: 100%;
+}
+.emp-leftside-content {
+  margin-top: 50px;
+}
+.react-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.logo {
+  text-align: center;
+  margin: 20px 0;
+  color: #cdca2a;
+  padding: 5px;
+  transition: 3ms;
+}
+.logo:hover {
+  background: #1c2146;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  width: 75%;
+  color: #fff;
+}
+
+.emp-leftside .logo img {
+  width: 40px;
+  height: 40px;
+  display: block;
+  margin: 0 auto;
+}
+
+.emp-leftside .logo img:hover {
+  opacity: 0.7;
+}
+.emp-dash-main {
+  /* border: 1px yellow solid; */
+  /* padding-left: 5px; */
+  padding-right: 20px;
+  width: 95%;
+  /* height: 100vh; */
+  display: flex;
+}
+.emp-meeting-schedule {
+  margin-left: 21px;
+  /* float: left; */
+}
+.emp-noti-icons {
+  margin-right: 29px;
+  float: right;
+  color: white;
+}
+
+.emp-body {
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: auto;
+}
+
+.emp-dash {
+  width: 57%;
+  clear: left;
+  float: left;
+  margin-left: 15px;
+  border-collapse: separate;
+  border-spacing: 0 1em;
+  padding: 10px;
+  background: #1c2146;
+  border-radius: 15px;
+  margin-top: 15px;
+}
+.emp-dash-leftcontent{
+  width: 80%;
+}
+.emp-dash-rightcontent{
+width: 20%;
+}
+.emp-chat{
+  width: 100%;
+  /* margin: 15px; */
+  background: white;
+  border-radius: 5px;
+  height: 92vh;
+}
+.emp-calender {
+  float: left;
+  width: 30%;
+  border-radius: 15px;
+  background: white;
+  margin-left: 20px;
+}
+.emp-table-head {
+  text-align: center;
+ 
+  border-radius: 15px;
+  color: #cdca2a;
+  font-size: medium;
+}
+.emp-dashboard-add-employee {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.emp-dashboard-add-employee:hover {
+  background-color: #0056b3;
+}
+
+.emp-dashboard-table-data {
+  text-align: center;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 3px;
+  padding-bottom: 5px;
+}
+
+.emp-dashboard-card:hover{
+  opacity: 0.7;
+}

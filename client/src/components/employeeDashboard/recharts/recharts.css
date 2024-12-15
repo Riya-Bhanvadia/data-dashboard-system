@@ -1,0 +1,18 @@
+.chart-container{
+    background: linear-gradient(to bottom, #f8f4f4, #dcdada);
+    height: auto;
+    margin-top: 0px;
+}
+
+.div-barchart{
+    border-radius: 5px;
+    padding-top: 10px;
+    background: white;
+    width: auto;
+    /* height: auto; */
+    /* margin: 10px 30px ; */
+    /* margin-left: 25%; */
+    /* margin-top: 20px; */
+    /* width: 50%; */
+    /* align-items: center; */
+}

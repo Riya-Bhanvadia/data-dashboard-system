@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.admin-chat {
+  display: flex;
+  background-color: #fbfbfb;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
+  /* border-radius: 10px; */
+  /* margin: 20px; */
+  min-height: 100vh;
+}
+
+.admin-chat-people {
+  width: 30%;
+  padding: 10px;
+  border-right: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+}
+
+.admin-chat-person {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.admin-chat-person img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.admin-chat-chat {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.admin-chat-person:hover {
+  background: #d5d8ee;
+  cursor: pointer;
+}
+
+.admin-chat-messages {
+  flex: 1;
+  padding: 10px;
+  overflow-y: auto;
+  height: 404px;
+}
+
+.admin-chat-input {
+  display: flex;
+  padding: 10px;
+}
+
+.admin-chat-input input {
+  flex: 1;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 4px;
+}
+
+.admin-chat-input button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.admin-chat-head {
+  background: #ccc;
+  padding: 10px;
+}
+.admin-name-search input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  width: 94%;
+  background: #eeebeb;
+}
+.admin-name-list {
+  overflow-y: auto;
+  height: 77vh;
+}
+.chat-profile-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+.profile-name {
+    width: 100%;
+    margin-left: 15px;
+
+}
+.prof-container {
+  display: flex;
+  flex-direction: column;
+}
+.profile-line{
+    width: 100%;
+    margin-left: 15px;
+}

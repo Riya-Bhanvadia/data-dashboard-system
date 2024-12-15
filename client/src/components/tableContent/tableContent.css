@@ -1,0 +1,11 @@
+.dashboard-table-data {
+  /* border-radius: 8px; */
+  background-color: white;
+  box-shadow: 3px;
+  /* padding-bottom: 5px; */
+
+
+}
+tr{
+  border-radius: 5px;
+}
